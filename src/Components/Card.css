@@ -1,8 +1,7 @@
 .card {
-  /* display: flex;
-  flex-direction: column; */
   position: relative;
-  width: 300px;
+  width: 20%;
+  min-width: 250px;
   border: solid 1px;
   border-color: rgb(255, 255, 255);
   padding: 40px 50px 50px 60px;
@@ -14,7 +13,7 @@
 .card img {
   position: absolute;
   top: -60px;
-  left: 150px;
+  left: 35%;
   padding: 10px;
   border: solid 3px;
   border-color: white;
