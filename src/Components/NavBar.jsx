@@ -5,7 +5,7 @@ export function NavBar() {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img className="logo" src="src/assets/logo_white_inverted.svg"></img>
+        <img className="logo" src="/logo_white_inverted.svg"></img>
       </Link>
 
       <div>
