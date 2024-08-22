@@ -4,6 +4,7 @@ import "./Leistungen.css";
 export function Leistungen() {
   return (
     <>
+      <header className="leistungenHeader"></header>
       <div className="section1">
         <h1>BPO: Ihr Schlüssel zur Effizienzsteigerung</h1>
         <p>

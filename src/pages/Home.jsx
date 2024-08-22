@@ -4,7 +4,7 @@ import { content } from "../data/content";
 export function Home() {
   return (
     <>
-      <div className="headermain">
+      <header className="headermain">
         <div className="title">
           <h1 className="titletext">lass uns deine Geschäft ausbauen</h1>
         </div>
@@ -13,7 +13,7 @@ export function Home() {
             return <Card key={cardContent.title} cardContent={cardContent} />;
           })}
         </div>
-      </div>
+      </header>
       <div className="body">
         <section className="section1">
           <p className="title1">Business Process Services</p>

@@ -1,11 +1,5 @@
 .headermain {
   background-image: url(../assets/pexels-suzyhazelwood-1629236.jpg);
-  /*background-color: #f62b38; */
-  color: rgb(255, 255, 255);
-  background-size: cover;
-  min-height: 300px;
-  margin: 0px;
-  padding: 100px;
 }
 .cardsDiv {
   display: flex;

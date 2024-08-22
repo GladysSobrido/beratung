@@ -1,0 +1,10 @@
+.kontaktHeader {
+  background-color: rgb(92, 111, 135);
+  margin-bottom: 100px;
+}
+.headerText {
+  max-width: 1200px;
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}

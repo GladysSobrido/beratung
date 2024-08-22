@@ -5,12 +5,8 @@ import Footer from "./Components/Footer";
 export function RootLayout() {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
-
+      <NavBar />
       <Outlet />
-
       <footer>
         <Footer />
       </footer>

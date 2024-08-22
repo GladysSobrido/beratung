@@ -7,6 +7,7 @@ import "../global.css";
 import { Home } from "./pages/Home";
 import { Leistungen } from "./pages/Leistungen";
 import { Unternehme } from "./pages/Unternehme";
+import { Kontakt } from "./pages/Kontakt";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "Unternehme",
         element: <Unternehme />,
+      },
+      {
+        path: "kontakt",
+        element: <Kontakt />,
       },
     ],
   },
