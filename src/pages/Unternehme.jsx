@@ -1,7 +1,10 @@
+import "./Leistungen.css";
 export function Unternehme() {
   return (
     <>
-      <header className="leistungenHeader"></header>
+      <header className="leistungenHeader">
+        <div className="greybar"></div>
+      </header>
       <div className="section1">
         <h1>Unsere Team</h1>
         <p>

@@ -1,8 +1,11 @@
 .kontaktHeader {
   background-color: rgb(92, 111, 135);
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 .headerText {
+  margin-top: 100;
   max-width: 1200px;
   width: 100%;
   text-align: left;
