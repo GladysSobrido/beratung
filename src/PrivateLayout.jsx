@@ -10,7 +10,7 @@ function PrivateLayout() {
 
   React.useEffect(() => {
     if (isLoaded && !userId) {
-      navigate("/sign-in");
+      navigate("/");
     }
   }, [isLoaded]);
 
