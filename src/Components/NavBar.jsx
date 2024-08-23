@@ -1,6 +1,14 @@
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+//Authentication with clerk
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
+
 export function NavBar() {
   return (
     <nav className="navbar">
@@ -21,6 +29,12 @@ export function NavBar() {
           </div>
         </ul>
       </div>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
     </nav>
   );
 }
