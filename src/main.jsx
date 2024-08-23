@@ -8,6 +8,11 @@ import { Home } from "./pages/Home";
 import { Leistungen } from "./pages/Leistungen";
 import { Unternehme } from "./pages/Unternehme";
 import { Kontakt } from "./pages/Kontakt";
+
+import PrivateLayout from "./PrivateLayout";
+import { PrivatePage } from "./private";
+import { InvoicesPage } from "./private/invoices";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,9 +34,18 @@ const router = createBrowserRouter([
         path: "kontakt",
         element: <Kontakt />,
       },
+      {
+        element: <PrivateLayout />,
+        path: "private",
+        children: [
+          { path: "/private", element: <PrivatePage /> },
+          { path: "/private/invoices", element: <InvoicesPage /> },
+        ],
+      },
     ],
   },
 ]);
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
