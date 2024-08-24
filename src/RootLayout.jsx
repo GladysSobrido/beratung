@@ -7,7 +7,10 @@ import { ClerkProvider } from "@clerk/clerk-react";
 import { useNavigate } from "react-router-dom";
 
 // Authentication with clerk Import your publishable key
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+const PUBLISHABLE_KEY =
+  "pk_test_ZGVmaW5pdGUtc2hlcGhlcmQtNTEuY2xlcmsuYWNjb3VudHMuZGV2JA";
+
+//  import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
