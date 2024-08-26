@@ -57,3 +57,20 @@ main {
   padding: 0px 100px;
   /* height: 100vmax; */
 }
+/* @media (prefers-color-scheme: light) {
+  .section1 {
+    color: black;
+    background-color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .section1 {
+    color: white;
+    background-color: black;
+  }
+} */
+.section1 {
+  color: light-dark(rgba(26, 26, 26, 0.87), rgb(198, 198, 198));
+  background-color: light-dark(white, rgba(17, 17, 17));
+}
