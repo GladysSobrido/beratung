@@ -35,7 +35,7 @@ button:disabled {
   border: 0px;
   border-color: solid black;
   border-radius: 20px;
-  color: ligth-dark (rgb(92, 111, 135), rgb(12, 24, 44));
+  color: ligth-dark (rgb(92, 111, 135), white);
 }
 .elements {
   display: flex;
