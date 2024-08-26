@@ -3,7 +3,7 @@ import "./Kontakt.css";
 export function Kontakt() {
   return (
     <>
-      <header className="kontaktHeader">
+      <div className="kontaktHeader">
         <div className="headerText">
           <h1>Kontaktieren Sie uns</h1>
           <h3>
@@ -11,7 +11,7 @@ export function Kontakt() {
             möglich beantworten.
           </h3>
         </div>
-      </header>
+      </div>
       <main>
         <HubspotContactForm />
       </main>
