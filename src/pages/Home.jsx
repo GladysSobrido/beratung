@@ -21,7 +21,7 @@ export function Home() {
             Nutzen Sie neue Möglichkeiten und steigern Sie nicht nur die
             Effizienz, sondern auch den Erfolg Ihres Unternehmens.
           </h3>
-          <img src="src/assets/klein_pexels-mart-production-7709208.jpg"></img>
+          <img src="/klein_pexels-mart-production-7709208.jpg"></img>
           <h3>
             Stellen Sie sich vor, Ihre Mitarbeiter könnten sich voll und ganz
             auf das Wesentliche konzentrieren, während wir Ihnen den Rücken im

@@ -20,12 +20,24 @@
   height: 80px;
   margin: 10px;
 }
-/* button {
+button {
   border: 0px;
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
   font-weight: 600;
 }
 button:disabled {
   color: black;
   font-weight: 600;
-} */
+}
+.loginButton button {
+  margin: 10px;
+  padding: 10px;
+  border: 0px;
+  border-color: solid black;
+  border-radius: 20px;
+  color: rgb(92, 111, 135);
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+}
