@@ -12,7 +12,7 @@ export function Kontakt() {
           </h3>
         </div>
       </div>
-      <main>
+      <main className="kontakt">
         <HubspotContactForm />
       </main>
     </>

@@ -1,6 +1,6 @@
 .kontaktHeader {
   background-color: rgb(92, 111, 135);
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   padding-top: 100px;
   padding-left: 100px;
   padding-bottom: 50px;
@@ -11,4 +11,8 @@
   width: 100%;
   text-align: left;
   margin: auto;
+}
+main.kontakt {
+  background-color: light-dark(white, white);
+  padding-top: 80px;
 }
