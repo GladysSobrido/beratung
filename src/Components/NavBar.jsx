@@ -16,7 +16,7 @@ export function NavBar() {
         <img className="logo" src="/logo_white_inverted.svg"></img>
       </Link>
 
-      <div>
+      <div className="elements">
         <ul className="menu">
           <div>
             <NavLink to={"/Leistungen"}>Leistungen</NavLink>
@@ -28,13 +28,15 @@ export function NavBar() {
             <NavLink to={"/Kontakt"}>Kontakt</NavLink>
           </div>
         </ul>
+        <div className="loginButton">
+          <SignedOut>
+            <SignInButton />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </div>
       </div>
-      <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
     </nav>
   );
 }
