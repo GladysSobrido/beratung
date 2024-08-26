@@ -12,7 +12,7 @@
   text-align: left;
   margin: auto;
 }
-main.kontakt {
+:root .kontakt {
   background-color: light-dark(white, white);
   padding-top: 80px;
 }
