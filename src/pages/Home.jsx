@@ -43,6 +43,19 @@ export function Home() {
             können.
           </h3>
         </section>
+        <section>
+          <h2>In 5 Schritten zum Erfolg im Energievertrieb</h2>
+          <p>
+            Ein reibungsloser und transparenter Projektablauf ist entscheidend
+            für den Erfolg Ihres Business Process Outsourcing. Haben Sie sich
+            entschieden, mit uns den modernen Energievertrieb zu gestalten? Dann
+            wird Ihr Projekt in fünf Schritten umgesetzt. Um die Effizienz zu
+            maximieren, arbeiten wir agil und iterativ, was bedeutet, dass sich
+            die Phasen 1 bis 3 überschneiden können. So stellen wir sicher, dass
+            die Prozesse und Systeme alle Anforderungen erfüllen und einer
+            erfolgreichen Projektumsetzung nichts im Wege steht.
+          </p>
+        </section>
       </div>
     </>
   );
