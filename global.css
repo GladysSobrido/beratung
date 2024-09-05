@@ -83,3 +83,8 @@ main {
   color: light-dark(rgba(26, 26, 26, 0.87), rgb(198, 198, 198));
   background-color: light-dark(rgb(178, 179, 212), rgba(17, 17, 17));
 }
+/* The greybar is used in the pages Leistungen and Unternehme */
+.greybar {
+  height: 110px;
+  background-color: rgba(44, 44, 44, 0.322);
+}

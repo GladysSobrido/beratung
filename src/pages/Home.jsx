@@ -72,7 +72,7 @@ export function Home() {
             <Stepper
               index={activeStep}
               orientation="vertical"
-              height="300px"
+              height="500px"
               gap="0"
               colorScheme="facebook"
               size="lg"
