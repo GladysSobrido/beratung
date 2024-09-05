@@ -1,16 +1,59 @@
 import "./Home.css";
 import { Card } from "../Components/Card";
 import { content } from "../data/content";
-import { steps } from "../data/steps";
-import { StepItem } from "../Components/StepItem";
 //stepper
-import { Stepper, useSteps } from "@chakra-ui/react";
+import {
+  Step,
+  StepDescription,
+  StepIcon,
+  StepIndicator,
+  StepNumber,
+  StepSeparator,
+  StepStatus,
+  StepTitle,
+  Stepper,
+  useSteps,
+  Box,
+} from "@chakra-ui/react";
+//import to animate the stepper collapsing the content
+// import { Collapse, useDisclosure } from "@chakra-ui/react";
 
 export function Home() {
+  // constant to define the content of the stepper
+  const steps = [
+    {
+      title: "Anforderungsanalyse",
+      description:
+        "Im ersten Schritt klären wir Ihre Anforderungen im Detail, um das Projekt erfolgreich zu starten. Je nach Komplexität kann diese Phase zwei bis sechs Wochen dauern.",
+    },
+    {
+      title: "System- und Prozessaufbau",
+      description:
+        "Basierend auf Ihren Anforderungen setzen wir die notwendigen Systeme und Prozesse auf und implementieren sie innerhalb von vier bis sechs Wochen.",
+    },
+    {
+      title: "Testphase",
+      description:
+        "In einer zwei- bis vierwöchigen Testphase werden die implementierten Systeme und Prozesse intensiv geprüft, um sicherzustellen, dass sie die gewünschten Ziele erreichen. Am Ende dieser Phase erfolgt die Freigabe durch Sie.",
+    },
+    {
+      title: "Go-Live und Stabilisierung",
+      description:
+        "Nach Ihrer Freigabe geht die BPO-Lösung live. In den folgenden sechs Wochen werden alle Abläufe überwacht, optimiert und angepasst, um reibungslose Ergebnisse sicherzustellen.",
+    },
+    {
+      title: "Regelbetrieb",
+      description:
+        "Nach der Stabilisierungsphase geht Ihr BPO-Projekt in den regulären Betrieb über, wo es dauerhaft und effizient für Sie arbeitet.",
+      toggle: {},
+    },
+  ];
   const { activeStep, setActiveStep } = useSteps({
     index: 1,
     count: steps.length,
   });
+  //to animate the stepper
+  // const { isOpen, onToggle } = useDisclosure();
 
   return (
     <>
@@ -78,13 +121,34 @@ export function Home() {
               size="lg"
             >
               {steps.map((step, index) => (
-                <StepItem
+                <Step
                   key={index}
-                  onClick={() => setActiveStep(index + 1)}
-                  title={step.title}
+                  onClick={
+                    () => setActiveStep(index + 1)
+                    // onToggle
+                  }
                 >
-                  {step.description}
-                </StepItem>
+                  <StepIndicator>
+                    <StepStatus
+                      complete={<StepIcon />}
+                      incomplete={<StepNumber />}
+                      active={<StepNumber />}
+                    />
+                  </StepIndicator>
+                  {/* <Box flexShrink="100">
+                    <StepTitle>{step.title}</StepTitle>
+                    {activeStep > index ? (
+                      <StepDescription>{step.description}</StepDescription>
+                    ) : undefined}
+                  </Box> */}
+                  <Box flexShrink="100">
+                    <StepTitle>{step.title}</StepTitle>
+                    <Collapse in={isOpen} animateOpacity>
+                      <StepDescription>{step.description}</StepDescription>{" "}
+                    </Collapse>
+                  </Box>{" "}
+                  <StepSeparator />
+                </Step>
               ))}
             </Stepper>
           </div>

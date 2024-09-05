@@ -8,7 +8,7 @@ export function Leistungen() {
         <div className="greybar"></div>
       </header>
       <div className="section1">
-        <h1>BPO: Ihr Schlüssel zur Effizienzsteigerung</h1>
+        <p className="title1">BPO: Ihr Schlüssel zur Effizienzsteigerung</p>
         <p>
           In der heutigen Energiebranche sind Faktoren wie wettbewerbsfähige
           Kostenstrukturen, Kundennähe und innovative Services entscheidend, um

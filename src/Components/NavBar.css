@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: -110px;
+  align-items: center;
+  margin-right: 30px;
 }
 .menu {
   display: flex;
@@ -30,14 +32,16 @@ button:disabled {
   font-weight: 600;
 }
 .loginButton button {
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 0px;
   border: 0px;
   border-color: solid black;
   border-radius: 20px;
   color: ligth-dark (rgb(92, 111, 135), white);
+  margin-right: 30px;
 }
 .elements {
   display: flex;
   flex-direction: row;
+  margin-right: 30px;
 }
