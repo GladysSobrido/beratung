@@ -28,6 +28,17 @@ export function Leistungen() {
           <li>Forderungsmanagement (Mahnwesen und Inkassobearbeitung)</li>
           <li>Marktprozesse</li>
         </ul>
+        <p>
+          Wenn Sie Ihr Unternehmen digital transformieren oder neue, innovative
+          Produktangebote auf den Markt bringen möchten, ist Business Process
+          Outsourcing der ideale Weg, um schneller und kosteneffizienter ans
+          Ziel zu gelangen. Besonders bei der Einführung neuer Energieprodukte
+          profitieren Sie von unseren strukturierten und skalierbaren
+          Dienstleistungen, die Ihnen helfen, große Fixkosten zu vermeiden und
+          die Flexibilität zu bewahren. Mit unserer Unterstützung können Sie
+          sich auf Ihre Kernkompetenzen fokussieren und gleichzeitig den
+          Vertrieb effektiv ausbauen – genau dann, wenn es darauf ankommt.
+        </p>
       </div>
     </>
   );
