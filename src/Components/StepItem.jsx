@@ -9,6 +9,7 @@ import {
   StepTitle,
   Box,
 } from "@chakra-ui/react";
+//import to animate the stepper collapsing the content
 import { Collapse, useDisclosure } from "@chakra-ui/react";
 
 export function StepItem({ onClick, title, children }) {

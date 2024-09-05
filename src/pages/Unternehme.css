@@ -1,8 +1,4 @@
-/* public/pexels-fauxels-3183150.jpg */
-.leistungenHeader {
-  /* background-color: #f62b38; */
-  /* background-color: rgb(149, 126, 172); */
-  /* background-color: rgb(126, 154, 172); */
+.unternehmeHeader {
   background-image: url(/pexels-fauxels-3183150.jpg);
   background-position: bottom;
 }

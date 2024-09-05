@@ -40,4 +40,6 @@ const HubspotContactForm = () => {
 
 export default HubspotContactForm;
 --------------------------------------------------------------
- 
+ The collapsible element on home, that shows steps into circles, is done with the external components of Chakra https://v2.chakra-ui.com/
+ It is a mix of the "Stepper" component https://v2.chakra-ui.com/docs/components/stepper/usage
+ with the "collapse" transition https://v2.chakra-ui.com/docs/components/transitions/usage

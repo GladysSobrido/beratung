@@ -2,11 +2,11 @@ import "./Unternehme.css";
 export function Unternehme() {
   return (
     <>
-      <header className="leistungenHeader">
+      <header className="unternehmeHeader">
         <div className="greybar"></div>
       </header>
       <div className="section1">
-        <h1>Unsere Team</h1>
+        <p className="title1">Unsere Team</p>
         <p>
           Vertrauen Sie auf das Know-how unseres BPO-Teams. Unsere Expertise
           liegt in der Energiewirtschaft – sie ist sozusagen unsere DNA. Bei der
