@@ -21,20 +21,20 @@ export function RootLayout() {
   const navigate = useNavigate();
   return (
     <>
-      <ChakraProvider>
-        <ClerkProvider
-          routerPush={(to) => navigate(to)}
-          routerReplace={(to) => navigate(to, { replace: true })}
-          publishableKey={PUBLISHABLE_KEY}
-          afterSignOutUrl="/"
-        >
+      <ClerkProvider
+        routerPush={(to) => navigate(to)}
+        routerReplace={(to) => navigate(to, { replace: true })}
+        publishableKey={PUBLISHABLE_KEY}
+        afterSignOutUrl="/"
+      >
+        <ChakraProvider>
           <NavBar />
           <Outlet />
           <footer>
             <Footer />
           </footer>
-        </ClerkProvider>
-      </ChakraProvider>
+        </ChakraProvider>
+      </ClerkProvider>
     </>
   );
 }
