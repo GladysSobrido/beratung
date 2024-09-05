@@ -24,6 +24,9 @@
     color: rgb(255, 255, 255);
     max-width: 350px;
   }
+  .stepper {
+    height: 550px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -53,4 +56,6 @@
 .stepper {
   margin: 50px 50px 10% 50px;
   align-items: left;
+
+  height: 850px;
 }
