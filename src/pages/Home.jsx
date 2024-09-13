@@ -90,7 +90,7 @@ export function Home() {
             </Stepper>
           </div>
         </section>
-        <section className="section3">
+        {/* <section className="section3">
           <div className="section3column1"></div>
           <div className="section3text">
             <p className="title3">
@@ -116,7 +116,7 @@ export function Home() {
               flexibel an die Kundenzahl und Auftragslage anpassen.
             </p>
             {/* </section>
-        <section className="section2"> */}
+        <section className="section2"> 
             <p className="title2">Flexibel bleiben und Fixkosten minimieren </p>
             <p>
               Als Geschäftsführer möchten Sie sich auf schwankende Volumina
@@ -140,7 +140,7 @@ export function Home() {
               Fixkosten und bleiben unabhängig von schwankendem Auftragsvolumen.
             </p>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
