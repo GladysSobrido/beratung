@@ -16,7 +16,7 @@ export function Home() {
     <>
       <header className="headermain">
         <div className="title">
-          <h1 className="titletext">lass uns deine Geschäft ausbauen</h1>
+          <h1 className="titletext">lass uns dein Geschäft ausbauen</h1>
         </div>
         <div className="cardsDiv">
           {content.map((cardContent) => {
@@ -31,7 +31,7 @@ export function Home() {
             Nutzen Sie neue Möglichkeiten und steigern Sie nicht nur die
             Effizienz, sondern auch den Erfolg Ihres Unternehmens.
           </h3>
-          <img src="/klein_pexels-mart-production-7709208.jpg"></img>
+          <img src="/mittel_pexels-mart-production-7709208.jpg"></img>
           <h3>
             Stellen Sie sich vor, Ihre Mitarbeiter könnten sich voll und ganz
             auf das Wesentliche konzentrieren, während wir Ihnen den Rücken im
@@ -73,6 +73,7 @@ export function Home() {
               index={activeStep}
               orientation="vertical"
               height="500px"
+              width="500px"
               gap="0"
               colorScheme="facebook"
               size="lg"
@@ -87,6 +88,57 @@ export function Home() {
                 </StepItem>
               ))}
             </Stepper>
+          </div>
+        </section>
+        <section className="section3">
+          <div className="section3column1"></div>
+          <div className="section3text">
+            <p className="title3">
+              Vielfältige Ziele im Energievertrieb, ein Weg zum Erfolg{" "}
+            </p>
+
+            <p className="title2">Erfolgreiche und schnelle Markteinführung </p>
+            <p>
+              Als Vertriebsleiter eines Energieversorgers planen Sie die
+              Einführung eines innovativen Bündelprodukts, wie etwa eines
+              Energievertrags, kombiniert mit einem attraktiven DSL-Tarif? Um
+              sicherzustellen, dass Ihre Produktidee erfolgreich und zügig am
+              Markt platziert wird, benötigen Sie eine passende IT- und
+              Vertriebsstruktur. Doch was tun, wenn Ihre aktuellen Strukturen
+              nicht alle Anforderungen erfüllen und den Erfolg des neuen
+              Produkts gefährden könnten? Lassen Sie sich davon nicht aufhalten
+              – setzen Sie auf Business Process Outsourcing (BPO). Unsere
+              Experten übernehmen die Abwicklung Ihrer Geschäftsprozesse und
+              schaffen für Ihre Produktidee die nötigen IT- und
+              Vertriebsstrukturen. So gelingt die Markteinführung reibungslos,
+              ohne Ihre bestehende Organisation zu belasten. Zudem schonen Sie
+              Ihre personellen Ressourcen und können das Auftragsvolumen
+              flexibel an die Kundenzahl und Auftragslage anpassen.
+            </p>
+            {/* </section>
+        <section className="section2"> */}
+            <p className="title2">Flexibel bleiben und Fixkosten minimieren </p>
+            <p>
+              Als Geschäftsführer möchten Sie sich auf schwankende Volumina
+              vorbereiten und hohe Fixkosten vermeiden? Wir haben die Lösung für
+              Sie!
+            </p>
+            <p className="title2">
+              Outsourcing von Geschäftsprozessen und flexibler Ressourceneinsatz{" "}
+            </p>
+
+            <p>
+              Unsere BPO-Lösung ermöglicht es Ihnen, komplette Geschäftsprozesse
+              oder Teile davon auszulagern – ganz nach Ihrem Bedarf. Stellen Sie
+              sich die Leistungen modular zusammen, passgenau auf Ihre
+              Anforderungen zugeschnitten. Unser Team deckt das gesamte
+              BEMD-Standardleistungsverzeichnis ab und sorgt dank umfassender
+              Expertise und einer transparenten, agilen Arbeitsweise für eine
+              verantwortungsvolle Projektbearbeitung. Die BPO-Kosten passen sich
+              flexibel der Anzahl Ihrer Kunden an, da wir die benötigten
+              Ressourcen bedarfsgerecht einsetzen können. So sparen Sie hohe
+              Fixkosten und bleiben unabhängig von schwankendem Auftragsvolumen.
+            </p>
           </div>
         </section>
       </div>

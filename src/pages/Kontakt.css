@@ -1,9 +1,12 @@
 .kontaktHeader {
-  background-color: rgb(92, 111, 135);
+  /* background-color: rgb(92, 111, 135); */
+
+  background-image: url(../pexels-fauxels-3184465.jpg);
+  background-position: center;
   /* margin-bottom: 80px; */
-  padding-top: 100px;
+  /* padding-top: 100px;
   padding-left: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 }
 .headerText {
   margin-top: 100;
