@@ -3,14 +3,16 @@ import "./Kontakt.css";
 export function Kontakt() {
   return (
     <>
-      <div className="kontaktHeader">
-        <div className="headerText">
-          <h1>Kontaktieren Sie uns</h1>
-          <h3>
-            Schreiben sie uns ein Nachricht und wir werden wie schnell wie
-            möglich beantworten.
-          </h3>
-        </div>
+      <header className="kontaktHeader">
+        <div className="greybar"></div>
+      </header>
+
+      <div className="section1">
+        <p className="title1">Kontaktieren Sie uns</p>
+        <h3>
+          Schreiben sie uns ein Nachricht und wir werden wie schnell wie möglich
+          beantworten.
+        </h3>
       </div>
       <main className="kontakt">
         <HubspotContactForm />

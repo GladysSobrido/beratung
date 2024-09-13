@@ -12,7 +12,7 @@ export const content = [
   //   { title: "Forderungsmanagement", text: "Mahnwesen und Inkassobearbeitung" },
   {
     title: "Marktprozesse",
-    text: "Finden Sie kompliziert die Marktkomunnikation? Wir machen es für Ihnen.",
+    text: "Finden Sie die Marktkommunikation kompliziert? Wir können sie für Sie übernehmen.",
     icon: "/prozesse.png",
   },
 ];
